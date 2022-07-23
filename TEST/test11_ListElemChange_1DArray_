@@ -1,0 +1,15 @@
+# Lists - Changing an element of particular index ( 1D Arrays of Integers)
+
+int $main(){
+    array p[5];              # Specify List size while declaring
+    p=[25;26;27;28;29;];
+
+
+   p[1]=200;        #   [25 26 27 28 29]
+   print(p);        #   [25 200 27 28 29]
+
+
+   p[4]=100;        #   [25 200 27 28 29]
+   print(p);        #   [25 200 27 28 100]
+
+}

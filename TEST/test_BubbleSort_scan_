@@ -1,0 +1,45 @@
+# Lists - Sorting ( 1D Arrays of Integers)
+
+int $main(){
+
+    int siz;
+    int m;
+    int n;
+    int o;
+    
+    array mylis[10];
+
+    siz = 10;
+
+    int i;
+    int j;
+    int t;
+
+    for(i=0;i<siz;i++;){
+        scan(j);
+        mylis[i]=j;
+    }
+
+    # print(mylis);
+
+    siz--;
+
+    for(i=0;i<siz;i++;){
+        t=siz-i;
+        for(j=0;j<t;j++;){
+            m=mylis[j];
+            o=j+1;
+            n=mylis[o];
+            if(m>n){
+                m=mylis[j];
+                n=mylis[o];
+                mylis[j]=n;
+                mylis[o]=m;
+            }
+        }
+    }
+
+    print(mylis);
+
+
+}

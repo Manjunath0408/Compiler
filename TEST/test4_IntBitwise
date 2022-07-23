@@ -1,0 +1,21 @@
+# Bitwise operators Integers
+int $main(){
+    int a;
+    int b;
+    int c;
+    a=4;
+    b=5;
+
+
+    c=a&b;
+    print(c); # c=4 ( 100 & 101 = 100   -> 4)
+
+
+    c=a|b;
+    print(c); # c=5 ( 100 | 101 = 101   -> 5)
+
+    c=a^b;
+    print(c); # c=1 ( 100 ^ 101 = 001   -> 1)
+
+
+}

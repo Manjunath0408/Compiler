@@ -1,0 +1,16 @@
+# While Loop
+
+int $main(){
+    int i;
+    i=10;
+    int a;
+    a=1;
+
+    while(i>5){
+        a=a*2;
+        i--;
+    }
+
+    print(a);
+
+}

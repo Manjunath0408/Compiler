@@ -1,0 +1,16 @@
+int $main()
+{
+    int aa;
+    aa = 52;
+    int bb;
+    bb = 32;
+    int k;
+    k = $addtwo(aa, bb);
+    print(k);
+}
+int $addtwo(int a, int b)
+{
+    int c;
+    c = a + b;
+    return c;
+}

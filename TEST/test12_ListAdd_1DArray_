@@ -1,0 +1,16 @@
+#  Adding Two lists 
+
+int $main(){
+    array p[5];              
+    p=[25;26;27;28;29;];
+
+    array q[5];              
+    q=[56;57;58;59;60;];
+
+    array r[5];
+
+    r=p+q;
+
+    print(r);           #   [81 83 85 87 89]
+
+}

@@ -1,0 +1,13 @@
+#add Two Integers
+
+int $main()
+{
+    int a;
+    int b;
+    int c;
+    a = 35;
+    b = 45;
+
+    c = a + b;
+    print(c);  # c = -10(35 - 45 = -10);
+}

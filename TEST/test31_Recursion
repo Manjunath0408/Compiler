@@ -1,0 +1,23 @@
+int $main(){
+    int aa;
+    aa=2;
+    int bb;
+    bb=10;
+    int k;
+    k=$power(aa,bb);
+    print(k);
+}
+int $power(int a,int b){
+    int cc;
+    cc=a;
+    int t;
+    if(b==1){
+        return cc;
+    }
+    else{
+        b=b- 1;
+        t=$power(a,b);
+        cc=cc*t;
+        return cc;
+    }
+}

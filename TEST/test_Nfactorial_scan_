@@ -1,0 +1,31 @@
+int $main ()
+{
+    int n;
+
+    scan(n);
+
+    int ans;
+
+    ans=$factorial(n);
+
+    print(ans);
+}
+
+# 0 1 1 2 3 5 8 13 21 34 .........
+# F0=0 ; F1=1; F2=2 .....
+
+int $factorial(int n)
+{
+    int a;
+    if(n==0){
+        a=1;
+    }
+    else{
+        a=1;
+        int i;
+        for(i=1;i<=n;i++;){
+            a=a*i;
+        }
+    }
+    return a;
+}

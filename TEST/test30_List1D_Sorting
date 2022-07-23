@@ -1,0 +1,40 @@
+# Lists - Sorting ( 1D Arrays of Integers)
+
+int _main(){
+
+    int siz;
+    
+    list pran[7];
+
+    pran=[19;35;4;78;46;23;5;];
+
+    siz=@pran;
+
+    int i;
+    int j;
+    int t;
+    int m;
+    int n;
+    int o;
+
+    siz--;
+
+    for(i=0;i<siz;i++;){
+        t=siz-i;
+        for(j=0;j<t;j++;){
+            m=pran[j];
+            o=j+1;
+            n=pran[o];
+            if(m>n){
+                m=pran[j];
+                n=pran[o];
+                pran[j]=n;
+                pran[o]=m;
+            }
+        }
+    }
+
+    print(pran);
+
+
+}

@@ -1,0 +1,20 @@
+# Lists - Changing an element of particular index ( 1D Arrays of Integers)
+
+int $main(){
+    int i;
+    i=15;
+
+    print(i);
+
+    int j;
+
+    j=$myfun();
+    print(j);
+    
+}
+int $myfun(){
+    int jj;
+    jj=20;
+
+    return jj;
+}

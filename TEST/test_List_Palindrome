@@ -1,0 +1,43 @@
+#Check if a list is Palindrome
+
+int $main()
+{
+
+    int siz;
+
+    array palin[9];
+
+#palin = [1; 2; 3; 4; 5; 4; 3; 2; 1;];
+    palin = [1; 2; 3; 4; 5; 4; 3; 2; 2;];
+
+    int ispalin;
+
+    ispalin = 1;
+
+    int i;
+    int t;
+    int m;
+    int n;
+
+    siz = 9;
+
+    for (i = 0; i < siz; i++;)
+    {
+        t = 9;
+        t = t - 1;
+        t = t - i;
+        m = palin[i];
+        n = palin[t];
+
+        if (m < n)
+        {
+            ispalin = 0;
+        }
+        if (m > n)
+        {
+            ispalin = 0;
+        }
+    }
+#print(palin);
+    print(ispalin);
+}

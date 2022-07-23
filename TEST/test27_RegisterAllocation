@@ -1,0 +1,17 @@
+# Register allocation
+
+int $main(){
+    int a;
+    int b;
+    a=35;
+    b=45;
+    int c;
+    c=a+b;
+    
+    c=a-b;  #   here , i dont load a and b from memory again. Instead , i will directly access from registers as they are previously accessed
+
+    c=a*b;  #   here , i dont load a and b from memory again. Instead , i will directly access from registers as they are previously accessed
+
+    print(c);
+# So, number of memory calls are only 2 instead of 6 , hence improving the performance
+}

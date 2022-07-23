@@ -1,0 +1,17 @@
+int $main(){
+    int a;
+    int b;
+    a=17;
+    b=15;
+    int k;
+    k=$AddSubTwoTwo(a,a,b,b);
+    print(k);
+}
+int $AddSubTwoTwo(int a, int b, int c,int d){
+    int x;
+    x=a+b;
+    int y;
+    y=c+d;
+    x=x+y;
+    return x;
+}

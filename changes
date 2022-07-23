@@ -1,0 +1,14 @@
+index.h
+    TreeNode -> AST
+    CodeGenerator -> CodeGen
+
+index.cpp
+    CodeGenerator -> CodeGen
+
+
+
+TO ASK: 
+1) How did you implement functions
+2) What is up with expressions
+3) why do we need load_into_ and store_into can we fix it?
+4) what is that 16 bytes alignment thing in function declaration

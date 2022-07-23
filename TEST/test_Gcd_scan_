@@ -1,0 +1,19 @@
+# GCD of two integers
+
+int $main(){
+    int n;
+    n = 6;
+
+    int m;
+    m = 9;
+
+    while(m!=n){
+        if(m>n){
+            m=m-n;
+        }
+        else{
+            n=n-m;
+        }
+    }
+    print(m);
+}
