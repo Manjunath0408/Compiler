@@ -1,5 +1,8 @@
 ## A Custom Compiler for C++ styled Programming Language
 
+*Test* Folder contains sample code.
+
+
 ### Run
 This generates the executable.
 ``` 
